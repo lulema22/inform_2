@@ -1,7 +1,7 @@
 #ifndef SEQUENCE_NEW_H
 #define SEQUENCE_NEW_H
 #include <utility>  // для std::pair
-#include <memory>   // для std::unique_ptr (если будете использовать умные указатели)
+#include <memory>   // для std::unique_ptr
 #include <algorithm> // для std::min
 template <class T>
 class Sequence{
